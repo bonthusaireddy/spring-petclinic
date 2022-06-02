@@ -100,7 +100,7 @@ class OwnerController {
 			return "redirect:/owners/" + owner.getId();
 		}
 		else {
-			// multiple owners found
+			// multiple owners foundss
 			model.put("selections", results);
 			return "owners/ownersList";
 		}
